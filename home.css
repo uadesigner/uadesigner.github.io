@@ -1,28 +1,24 @@
 @import url("https://fonts.googleapis.com/css?family=Share+Tech+Mono");
 
 html {
- background-color: rgb(0, 0, 0)
+
 }
 
-body {
-width: 1000px;
+body{
+  height: 500px;
 }
 
 #log {
-  top: 50%;
-  left: 30%;
-  background-image: url(image/2.jpeg);
-  width: 750px;
-  height: 600px;
+  margin: 160px 200px;
   transition: 5s;
 }
 
 
 
+
 .btnflip {
-  position: absolute;
-  top: 50%;
-  left: 65%;
+  position: fixed;
+  margin: 90px 200px;
   transform: translate(-50%, -50%);
   width: 200px;
   height: 60px;
