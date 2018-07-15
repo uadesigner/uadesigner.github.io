@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Share+Tech+Mono");
 
 html {
-
+ background-color: rgb(0, 0, 0);
 }
 
 body{
@@ -10,14 +10,16 @@ body{
 }
 
 #log {
-  margin: 160px 200px;
+  width: 100px;
+  height: 100px;
+  margin: 160px 400px;
   transition: 5s;
 }
 
 
 .btnflip {
   position: absolute;
-  margin: 25px 250px;
+  margin: 25px 650px;
   transform: translate(-50%, -50%);
   width: 200px;
   height: 60px;
