@@ -16,8 +16,8 @@ body{
 
 
 .btnflip {
-  position: fixed;
-  margin: 90px 200px;
+  position: absolute;
+  margin: 25px 250px;
   transform: translate(-50%, -50%);
   width: 200px;
   height: 60px;
