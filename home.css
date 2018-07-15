@@ -5,15 +5,13 @@ html {
 }
 
 body{
-  height: 500px;
+  height: 1000px;
 }
 
 #log {
   margin: 160px 200px;
   transition: 5s;
 }
-
-
 
 
 .btnflip {
