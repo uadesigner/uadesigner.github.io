@@ -1744,15 +1744,15 @@ body.scrolling #wrapper {
   font-size: 1.0em;
   font-style: Arial;
   float: left;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 #imgvk2 {
+  margin-right: 50px;
   border-radius: 100px;
-  float: left;
 }
 
 #imgvk1 {
+  margin-right: 50px;
   border-radius: 100px;
-  float: left;
 }
