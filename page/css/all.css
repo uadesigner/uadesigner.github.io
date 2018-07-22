@@ -856,13 +856,13 @@ iframe {
       @media only screen and (min-width: 1px) and (max-width: 479px) {
         /* line 340, ../sass/main/_main.scss */
         .container .contentWrapper .video {
-          height: 17.1em;
+          height: 15.1em;
 		width: auto;
 		} }
       @media only screen and (min-width: 480px) and (max-width: 759px) {
         /* line 340, ../sass/main/_main.scss */
         .container .contentWrapper .video {
-          height: 18.6em;
+          height: 16.6em;
           width: auto;
 		  } }
       @media only screen and (min-width: 760px) and (max-width: 1019px) {
@@ -1791,7 +1791,7 @@ body.scrolling #wrapper {
   {
     #kkk {
       margin-top: -3em;
-      height: auto;
+      height: 430px;
       width: auto;
     }
   }
@@ -1800,7 +1800,7 @@ body.scrolling #wrapper {
         @media only screen and (min-width: 480px) and (max-width: 759px)
         {
           #kkk {
-            height: auto;
+            height: 430px;
             width: auto;
           }
         }
