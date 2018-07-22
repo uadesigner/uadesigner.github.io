@@ -856,13 +856,13 @@ iframe {
       @media only screen and (min-width: 1px) and (max-width: 479px) {
         /* line 340, ../sass/main/_main.scss */
         .container .contentWrapper .video {
-          height: 24.1em;
-		width: auto;	
+          height: 52.1em;
+		width: auto;
 		} }
       @media only screen and (min-width: 480px) and (max-width: 759px) {
         /* line 340, ../sass/main/_main.scss */
         .container .contentWrapper .video {
-          height: 25.6em;
+          height: 57.6em;
           width: auto;
 		  } }
       @media only screen and (min-width: 760px) and (max-width: 1019px) {
@@ -1771,6 +1771,12 @@ body.scrolling #wrapper {
 #imgvk1 {
   margin-right: 50px;
   border-radius: 100px;
+}
+
+#post1
+{
+  width: auto;
+  height: auto;
 }
 
 #post2 {
