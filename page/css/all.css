@@ -852,17 +852,17 @@ iframe {
       /* line 350, ../sass/main/_main.scss */
       .container .contentWrapper .video.showReel {
 		  height: 550px;
-        margin-top: 10em; }
+        margin-top: -1em; }
       @media only screen and (min-width: 1px) and (max-width: 479px) {
         /* line 340, ../sass/main/_main.scss */
         .container .contentWrapper .video {
-          height: 19.1em;
+          height: 17.1em;
 		width: auto;
 		} }
       @media only screen and (min-width: 480px) and (max-width: 759px) {
         /* line 340, ../sass/main/_main.scss */
         .container .contentWrapper .video {
-          height: 20.6em;
+          height: 18.6em;
           width: auto;
 		  } }
       @media only screen and (min-width: 760px) and (max-width: 1019px) {
@@ -1736,8 +1736,8 @@ body.scrolling #wrapper {
 }
 
 #liniya {
-        width:auto;
-        height:auto;
+        width:700px;
+        height:115px;
         background:#000000;
         float:left;
         margin-left: 60px;
@@ -1762,27 +1762,53 @@ body.scrolling #wrapper {
   margin-left: 10px;
 }
 
+#tvk1 {
+  padding: 2px;
+  font-size: 1.0em;
+  font-style: oblique;
+  float: left;
+  margin-left: 10px;
+}
+
 
 #imgvk2 {
+  float: right;
   margin-right: 50px;
   border-radius: 100px;
 }
 
 #imgvk1 {
+  float: right;
   margin-right: 50px;
   border-radius: 100px;
 }
 
-#post1
-{
+#kkk {
+  height:auto;
   width: auto;
-  height: auto;
 }
+      @media only screen and (min-width: 1px) and (max-width: 479px)
+  {
+    #kkk {
+      margin-top: -3em;
+      height: auto;
+      width: auto;
+    }
+  }
+
+
+        @media only screen and (min-width: 480px) and (max-width: 759px)
+        {
+          #kkk {
+            height: auto;
+            width: auto;
+          }
+        }
 
 #post2 {
-  margin-top: 10em;
+  margin-top: -1em;
 }
 
 #post3 {
-  margin-top: 10em;
+  margin-top: -1em;
 }
