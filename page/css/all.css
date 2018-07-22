@@ -856,13 +856,13 @@ iframe {
       @media only screen and (min-width: 1px) and (max-width: 479px) {
         /* line 340, ../sass/main/_main.scss */
         .container .contentWrapper .video {
-          height: 52.1em;
+          height: 28.1em;
 		width: auto;
 		} }
       @media only screen and (min-width: 480px) and (max-width: 759px) {
         /* line 340, ../sass/main/_main.scss */
         .container .contentWrapper .video {
-          height: 57.6em;
+          height: 28.6em;
           width: auto;
 		  } }
       @media only screen and (min-width: 760px) and (max-width: 1019px) {
@@ -1737,7 +1737,7 @@ body.scrolling #wrapper {
 
 #liniya {
         width:350px;
-        height:250px;
+        height:160px;
         background:#000000;
         float:left;
         margin-left: 60px;
@@ -1756,7 +1756,7 @@ body.scrolling #wrapper {
 
 #tvk {
   padding: 2px;
-  font-size: 1.0em;
+  font-size: 0.8em;
   font-style: Arial;
   float: left;
   margin-left: 10px;
