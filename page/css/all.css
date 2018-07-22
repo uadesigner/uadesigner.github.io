@@ -856,19 +856,23 @@ iframe {
       @media only screen and (min-width: 1px) and (max-width: 479px) {
         /* line 340, ../sass/main/_main.scss */
         .container .contentWrapper .video {
-          height: 1.1em; } }
+          height: 9.1em;
+		width: auto;	
+		} }
       @media only screen and (min-width: 480px) and (max-width: 759px) {
         /* line 340, ../sass/main/_main.scss */
         .container .contentWrapper .video {
-          height: 1.6em; } }
+          height: 15.6em;
+          width: auto;
+		  } }
       @media only screen and (min-width: 760px) and (max-width: 1019px) {
         /* line 340, ../sass/main/_main.scss */
         .container .contentWrapper .video {
-          height: 2em; } }
+          height: 24em; } }
       @media only screen and (min-width: 1020px) and (max-width: 1399px) {
         /* line 340, ../sass/main/_main.scss */
         .container .contentWrapper .video {
-          height: 2.0714em; } }
+          height: 25.0714em; } }
       /* line 370, ../sass/main/_main.scss */
       .container .contentWrapper .video a {
         display: block;
