@@ -851,7 +851,8 @@ iframe {
       transition: all 0.4s ease-in-out; }
       /* line 350, ../sass/main/_main.scss */
       .container .contentWrapper .video.showReel {
-        margin-top: -2em; }
+		  height: 550px;
+        margin-top: 10em; }
       @media only screen and (min-width: 1px) and (max-width: 479px) {
         /* line 340, ../sass/main/_main.scss */
         .container .contentWrapper .video {
@@ -980,7 +981,7 @@ iframe {
         vertical-align: bottom; }
       /* line 495, ../sass/main/_main.scss */
       .container .contentWrapper .hWrapper .buttonWrapper {
-        margin-top: -1em; }
+        margin-top: -10em; }
     /* line 501, ../sass/main/_main.scss */
     .container .contentWrapper .reelHead {
       margin: -6.5em 0 3.5em 0;
@@ -1732,20 +1733,31 @@ body.scrolling #wrapper {
 
 #liniya {
         width:350px;
-        height:350px;
+        height:250px;
         background:#000000;
         float:left;
         margin-left: 60px;
         text-align:center;
         opacity: 0.8;
+        border-style: inset;
+        border-color: rgb(0,18,254);
+        border-width: 2px;
+        padding: 3px;
         }
 
+.info {
+  margin-top: 900px;
+}
+
+
 #tvk {
+  padding: 2px;
   font-size: 1.0em;
   font-style: Arial;
   float: left;
   margin-left: 10px;
 }
+
 
 #imgvk2 {
   margin-right: 50px;
@@ -1755,4 +1767,12 @@ body.scrolling #wrapper {
 #imgvk1 {
   margin-right: 50px;
   border-radius: 100px;
+}
+
+#post2 {
+  margin-top: 10em;
+}
+
+#post3 {
+  margin-top: 10em;
 }
