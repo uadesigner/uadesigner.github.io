@@ -856,13 +856,13 @@ iframe {
       @media only screen and (min-width: 1px) and (max-width: 479px) {
         /* line 340, ../sass/main/_main.scss */
         .container .contentWrapper .video {
-          height: 9.1em;
+          height: 11.1em;
 		width: auto;	
 		} }
       @media only screen and (min-width: 480px) and (max-width: 759px) {
         /* line 340, ../sass/main/_main.scss */
         .container .contentWrapper .video {
-          height: 15.6em;
+          height: 20.6em;
           width: auto;
 		  } }
       @media only screen and (min-width: 760px) and (max-width: 1019px) {
